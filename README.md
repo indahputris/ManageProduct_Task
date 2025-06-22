@@ -13,34 +13,20 @@ Aplikasi manajemen produk sederhana berbasis **Fullstack JavaScript** yang diban
 
 ## 📁 Struktur Proyek
 ManageProduct_Task/
-│
-├── backend/ # API dengan Express.js dan koneksi MySQL
-│ ├── db.js # Konfigurasi database
-│ ├── server.js # Server utama Express
-│ └── package.json # Daftar dependensi backend
-│
-├── frontend/ # Aplikasi React
-│ ├── src/ # Komponen dan file utama React
-│ ├── public/ # File statis dan folder upload gambar
-│ └── package.json # Daftar dependensi frontend
-│
-├── .gitignore # File dan folder yang tidak dimasukkan ke Git
-└── README.md # Dokumentasi proyek
+### Backend (Express.js + MySQL)
+- `backend/db.js` - Konfigurasi database
+- `backend/server.js` - Server utama Express
+- `backend/package.json` - Daftar dependensi backend
 
+### Frontend (React)
+- `frontend/src/` - Komponen dan file utama React
+- `frontend/public/` - File statis dan folder upload gambar
+- `frontend/package.json` - Daftar dependensi frontend
 
----
+### Lainnya
+- `.gitignore` - File dan folder yang tidak dimasukkan ke Git
+- `README.md` - Dokumentasi proyek
 
-## 🚫 Kenapa `node_modules` diabaikan?
-
-Folder `node_modules/` **tidak dimasukkan ke Git** karena:
-
-- ❌ Ukurannya sangat besar (ratusan MB)
-- 🔁 Bisa dibuat ulang dengan `npm install`
-- 🧹 Agar repositori tetap ringan, rapi, dan cepat dikloning
-
-Sebagai gantinya, semua dependensi disimpan dalam `package.json` dan `package-lock.json`.
-
----
 
 ## 📦 Cara Install Dependensi
 
@@ -52,5 +38,6 @@ cd backend
 npm install
 
 ### 🔧 Frontend
+```bash
 cd frontend
 npm install
