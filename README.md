@@ -30,14 +30,13 @@ ManageProduct_Task/
 
 ## 📦 Cara Install Dependensi
 
-Setelah kamu meng-kloning proyek ini:
+Setelah meng-kloning proyek ini:
 
 ### 🔧 Backend
-```bash
 cd backend
 npm install
 
 ### 🔧 Frontend
-```bash
-cd frontend
+cd backend
 npm install
+
