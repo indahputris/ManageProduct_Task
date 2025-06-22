@@ -12,7 +12,7 @@ Aplikasi manajemen produk sederhana berbasis **Fullstack JavaScript** yang diban
 ---
 
 ## 📁 Struktur Proyek
-ManageProduct_Task/
+manage_product/
 ### Backend (Express.js + MySQL)
 - `backend/db.js` - Konfigurasi database
 - `backend/server.js` - Server utama Express
@@ -37,6 +37,6 @@ Setelah meng-kloning proyek ini:
 - npm install
 
 ### 🔧 Frontend
-- cd backend
+- cd frontend
 - npm install
 
