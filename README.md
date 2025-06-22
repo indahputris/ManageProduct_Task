@@ -26,6 +26,7 @@ manage_product/
 ### Lainnya
 - `.gitignore` - File dan folder yang tidak dimasukkan ke Git
 - `README.md` - Dokumentasi proyek
+- `product_manager.sql ` - Database yang digunakan
 
 
 ## 📦 Cara Install Dependensi
