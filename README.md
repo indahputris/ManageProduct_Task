@@ -1,4 +1,4 @@
-# 🛍️ ManageProduct_Task
+# 🛍️ ManageProduct
 
 Aplikasi manajemen produk sederhana berbasis **Fullstack JavaScript** yang dibangun dengan **React (Frontend)** dan **Express + MySQL (Backend)**. Aplikasi ini memungkinkan pengguna untuk:
 
@@ -33,10 +33,10 @@ ManageProduct_Task/
 Setelah meng-kloning proyek ini:
 
 ### 🔧 Backend
-cd backend
-npm install
+- cd backend
+- npm install
 
 ### 🔧 Frontend
-cd backend
-npm install
+- cd backend
+- npm install
 
